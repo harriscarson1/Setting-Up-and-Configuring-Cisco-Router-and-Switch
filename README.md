@@ -14,7 +14,7 @@ This tutorial outlines the  installation of a Cisco 4351ISR router and a Cisco 3
 - DNS
 - Firewalls
 - APs
-- 802.11
+- NAT/PAT
 - VLANS
 - Switching
 - Cisco CLI
@@ -101,3 +101,34 @@ I then saved this config to the routers memory
 </p>
 <br />
 
+
+<p>
+Next i plugged the console port into the switch
+  </p>
+<p>
+  <img src="https://github.com/user-attachments/assets/92bb166e-9a89-4928-9bc7-f2da9fe2b857" height="80%" width="80%"/>
+</p>
+<br />
+
+
+<p>
+I logged into the switch and then setup 3 VLANS , named Home, Lab, and MGMT
+  </p>
+<p>
+  <img src="https://github.com/user-attachments/assets/60da64b2-5899-40cf-aba7-383bd7bba1a4" height="80%" width="80%"/>
+</p>
+<br />
+<p>
+I then setup the specific ports for each VLAN, i set 3 ports for Home for my uplink to router, my switch that goes to my devices in my home, and the 3rd one for the AP that I am setting up
+  </p>
+<p>
+  <img src="https://github.com/user-attachments/assets/8c81a7ed-a758-4430-a80e-d837d96873e4" height="80%" width="80%"/>
+</p>
+<br />
+<p>
+Lastly I exited the prompts and wrote it to the memory
+  </p>
+<p>
+  <img src="https://github.com/user-attachments/assets/79abdb1d-5148-44f8-bb10-f46c79f48e3f" height="80%" width="80%"/>
+</p>
+<br />
